@@ -1,3 +1,5 @@
+/* GENERAL CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,14 +15,18 @@ body {
     min-height: 100vh;
 }
 
-.grappe-raisin {
+.bunch-grape {
     position: relative;
     height: 300px;
     width: 250px;
     transform: rotate(-7deg);
 }
 
-.tige1 {
+/* ---------------------------------------------------------------------- */
+
+/* CSS STEM */
+
+.stem1 {
     position: absolute;
     background: rgb(139, 108, 66);
     height: 5em;
@@ -32,7 +38,7 @@ body {
     transform: rotate(83deg);
 }
 
-.tige2 {
+.stem2 {
     position: absolute;
     background: rgb(91, 60, 17); 
     height: 3.5em;
@@ -44,244 +50,154 @@ body {
     transform: rotate(12deg);
 }
 
+/* ---------------------------------------------------------------------- */
 
-.feuille1 {
+/* CSS LEAVES */
+
+.config-leaves{
     position: absolute;
     background: rgb(58, 157, 35);
-    height: 3.5em;
-    width: 3.5em;
     border-top-left-radius: 85%;
     border-bottom-right-radius: 85%;
+}
+
+
+.leaves1 {
+    height: 3.5em;
+    width: 3.5em;
     box-shadow: inset .8em .2em rgb(35, 97, 21);
     top: 45px;
     left: 30%;
     transform: rotate(-65deg);
 }
 
-.feuille2 {
-    position: absolute;
-    background: rgb(58, 157, 35);
+.leaves2 {
     height: 3em;
     width: 3em;
-    border-top-left-radius: 85%;
-    border-bottom-right-radius: 85%;
     box-shadow: inset .4em .4em rgb(35, 97, 21);
     top: 48px;
     left: 34%;
     transform: rotate(175deg);
 }
 
-.feuille3 {
-    position: absolute;
-    background: rgb(58, 157, 35);
+.leaves3 {
     height: 3.5em;
     width: 3.5em;
-    border-top-left-radius: 85%;
-    border-bottom-right-radius: 85%;
     box-shadow: inset .8em .2em rgb(35, 97, 21);
     top: 100px;
     left: 55%;
     transform: rotate(105deg);
 }
 
-.feuille4 {
-    position: absolute;
-    background: rgb(58, 157, 35);
+.leaves4 {
     height: 2em;
     width: 2em;
-    border-top-left-radius: 85%;
-    border-bottom-right-radius: 85%;
     box-shadow: inset .5em .2em rgb(35, 97, 21);
     top: 80px;
     left: 49%;
     transform: rotate(-5deg);
 }
 
-.feuille5 {
-    position: absolute;
-    background: rgb(58, 157, 35);
+.leaves5 {
     height: 2em;
     width: 2em;
-    border-top-left-radius: 85%;
-    border-bottom-right-radius: 85%;
     box-shadow: inset .3em .2em rgb(35, 97, 21);
     top: 157px;
     left: 29%;
     transform: rotate(-5deg);
 }
 
-.raisin1 {
+/* ---------------------------------------------------------------------- */
+
+/* CSS GRAPE */
+
+.config-grape {
     position: absolute;
     background: rgb(238, 130, 238);
     height: 3em;
     width: 3em;
     border-radius: 100%;
     box-shadow: inset .2em -.5em rgb(219, 11, 219);
+}
+
+.grape1 {
     bottom: 15px;
     left: 40%;
 }
 
-.raisin2 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape2 {
     bottom: 45px;
     left: 34%;
 }
 
-.raisin3 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape3 {
     bottom: 40px;
     left: 47%;
 }
 
-.raisin4 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape4 {
     bottom: 80px;
     left: 28%;
 }
 
-.raisin5 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape5 {
     bottom: 75px;
     left: 38%;
 }
 
-.raisin6 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape6 {
     bottom: 76px;
     left: 53%;
 }
 
-.raisin7 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape7 {
     bottom: 100px;
     left: 46%;
 }
 
-.raisin8 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape8 {
     bottom: 115px;
     left: 34%;
 }
 
-.raisin9 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape9 {
     bottom: 127px;
     left: 44%;
 }
 
-.raisin10 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape10 {
     bottom: 127px;
     left: 56%;
 }
 
-.raisin11 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape11 {
     bottom: 130px;
     left: 21%;
 }
 
-.raisin12 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape12 {
     bottom: 150px;
     left: 32%;
 }
 
-.raisin13 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape13 {
     bottom: 145px;
     left: 48%;
 }
 
-.raisin14 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape14 {
     bottom: 160px;
     left: 54%;
 }
 
-.raisin15 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape15 {
     bottom: 175px;
     left: 26%;
 }
 
-.raisin16 {
-    position: absolute;
-    background: rgb(238, 130, 238);
-    height: 3em;
-    width: 3em;
-    border-radius: 100%;
-    box-shadow: inset .2em -.5em rgb(219, 11, 219);
+.grape16 {
     bottom: 180px;
     left: 38%;
 }
+
+/* ---------------------------------------------------------------------- */
