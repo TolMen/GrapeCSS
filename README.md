@@ -1,6 +1,6 @@
 # GrapeCSS
 
-> **This project was done to experiment and test CSS.**
+> **This personal web project was created to experiment and test CSS.**
 
 ## Description
 
