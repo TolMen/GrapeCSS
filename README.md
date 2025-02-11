@@ -14,7 +14,7 @@
 
 ## Aperçu
 
-![GrapeCSS Preview](screenshot.png)
+![GrapeCSS Preview](screenshot.jpg)
 
 ## Author
 
