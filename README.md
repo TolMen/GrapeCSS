@@ -7,14 +7,12 @@
 - GrapeCSS is a simple HTML and CSS illustration of a bunch of grapes.
 - This project has no professional objective.
 
-## Technologies utilisées
+![GrapeCSS Preview](screenshot.jpg)
+
+## Technologies used
 
 - HTML5
 - CSS3
-
-## Aperçu
-
-![GrapeCSS Preview](screenshot.jpg)
 
 ## Author
 
