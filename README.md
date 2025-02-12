@@ -11,12 +11,6 @@
 
 ![GrapeCSS Preview](screenshot.jpg)
 
-## Features
-
-- Pure CSS illustration (no JavaScript)  
-- Responsive design  
-- Simple yet elegant styling  
-
 ## Technologies Used
 
 - HTML5  
