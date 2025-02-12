@@ -11,15 +11,10 @@
 
 ![GrapeCSS Preview](screenshot.jpg)
 
-## Technologies Used
+---
 
-- HTML5  
-- CSS3  
-
-## Author
+Thank you for taking the time to explore this project. <br>
+Feel free to explore, learn, and modify it ! ✨ <br>
+For any questions or collaboration, feel free to reach out ! 📩
 
 [TolMen](https://github.com/TolMen) - [LinkedIn](https://www.linkedin.com/in/jessyfrachisse/)
-
-## License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
