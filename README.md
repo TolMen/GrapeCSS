@@ -1,7 +1,7 @@
 # GrapeCSS 🍇
 
 > **A personal project to experiment with and test CSS techniques.** <br>
-> 📖 *Read this in [Français](README_fr.md)*
+> --> *Version : [Français](README_fr.md)* 📖
 
 ## Description
 
